@@ -1,0 +1,472 @@
+# Logfile created on 2014-07-12 14:24:24 +0100 by logger.rb/36483
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | worker_pool.rb:25        | Starting 0 threads.
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | worker_pool.rb:31        | 0 threads started.
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:24:24 +0100 t-70152935048820 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue Foo
+2014-07-12 14:24:24 +0100 t-70152935048820 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] ERROR | worker_pool.rb:46        | Some threads have died:
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] ERROR | worker_pool.rb:48        | Listener for Foo was dead
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | worker_pool.rb:25        | Starting 0 threads.
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | worker_pool.rb:31        | 0 threads started.
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | worker_pool.rb:25        | Starting 1 threads.
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | worker_pool.rb:31        | 1 threads started.
+2014-07-12 14:24:24 +0100 t-70152935048820 [      ] INFO  | worker_pool.rb:42        | All threads are alive.
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | worker_pool.rb:25        | Starting 0 threads.
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | worker_pool.rb:31        | 0 threads started.
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | listener.rb:16           | Starting to listen to queue Foo
+2014-07-12 14:27:46 +0100 t-70103895246440 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | worker_pool.rb:25        | Starting 0 threads.
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | worker_pool.rb:31        | 0 threads started.
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] ERROR | worker_pool.rb:46        | Some threads have died:
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] ERROR | worker_pool.rb:48        | Listener for Foo was dead
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | worker_pool.rb:25        | Starting 1 threads.
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | worker_pool.rb:31        | 1 threads started.
+2014-07-12 14:27:46 +0100 t-70103895246440 [      ] INFO  | worker_pool.rb:42        | All threads are alive.
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | worker_pool.rb:25        | Starting 0 threads.
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | worker_pool.rb:31        | 0 threads started.
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | listener.rb:16           | Starting to listen to queue Foo
+2014-07-12 14:31:12 +0100 t-70145368524400 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | worker_pool.rb:25        | Starting 0 threads.
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | worker_pool.rb:31        | 0 threads started.
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] ERROR | worker_pool.rb:46        | Some threads have died:
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] ERROR | worker_pool.rb:48        | Listener for Foo was dead
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | worker_pool.rb:25        | Starting 1 threads.
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | worker_pool.rb:31        | 1 threads started.
+2014-07-12 14:31:12 +0100 t-70145368524400 [      ] INFO  | worker_pool.rb:42        | All threads are alive.
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:40:55 +0100 t-70102687286900 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007f841d1e5200>
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:40:55 +0100 t-70102687286900 [34sdf ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | daemon.rb:19             | Starting Workerpool
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | daemon.rb:21             | Workerpool Finished
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:42:45 +0100 t-70289254123120 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007fdafea0c1a8>
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:42:45 +0100 t-70289254123120 [      ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:46:39 +0100 t-70360842503800 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007ffc56a8b6c8>
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:46:39 +0100 t-70360842503800 [34sdf ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:02 +0100 t-70347416536680 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:47:02 +0100 t-70347416536680 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:47:02 +0100 t-70347416536680 [34sdf ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:47:02 +0100 t-70347416536680 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007ff6169e9058>
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:47:02 +0100 t-70347416536680 [      ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:20 +0100 t-70220870190700 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:47:20 +0100 t-70220870190700 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007fbb292334a8>
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:47:20 +0100 t-70220870190700 [      ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:47:44 +0100 t-70226482169460 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007fbdc1585b48>
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:47:44 +0100 t-70226482169460 [34sdf ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:48:22 +0100 t-70336758810220 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007ff11fb2b840>
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:48:22 +0100 t-70336758810220 [      ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:48:38 +0100 t-70318689748600 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007fe8b620e148>
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:48:38 +0100 t-70318689748600 [34sdf ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:49:08 +0100 t-70325279000180 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007febc45dc200>
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:49:08 +0100 t-70325279000180 [34sdf ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | daemon.rb:18             | Starting Workerpool
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | daemon.rb:20             | Workerpool Finished
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | listener.rb:19           | Received message: {:foo=>"bar"}
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | listener.rb:16           | Starting to listen to queue foobar
+2014-07-12 14:49:35 +0100 t-70342916048500 [      ] INFO  | listener.rb:19           | Received message: 
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | listener.rb:16           | Starting to listen to queue Foobar
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 1 message(s) for topic: my-topic
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | message_replayer.rb:27   | Message : #<Mocha::Mock:0x007ff3f9b3a9a8>
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | message_replayer.rb:13   | Reprocessing 7 message(s) for topic: my-topic
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | processor.rb:16          | Processing message: {:entity=>"media_file", :action=>"processed", :media_file_id=>"8"}
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | worker_pool.rb:19        | Starting 1 threads.
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | worker_pool.rb:25        | 1 threads started.
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | worker_pool.rb:36        | All threads are alive.
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] ERROR | worker_pool.rb:40        | Some threads have died:
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] ERROR | worker_pool.rb:42        | Listener for Foo was dead
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | worker_pool.rb:19        | Starting 0 threads.
+2014-07-12 14:49:35 +0100 t-70342916048500 [34sdf ] INFO  | worker_pool.rb:25        | 0 threads started.
+2014-07-12 15:19:58 +0100 t-70345348744820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:19:58 +0100 t-70345348744820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:19:58 +0100 t-70345348744820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:19:58 +0100 t-70345348744820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:19:58 +0100 t-70345348744820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:19:58 +0100 t-70345348744820 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:21:52 +0100 t-70293280654960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:21:52 +0100 t-70293280654960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:21:52 +0100 t-70293280654960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:21:52 +0100 t-70293280654960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:21:52 +0100 t-70293280654960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:21:52 +0100 t-70293280654960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:22:10 +0100 t-70349966673520 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:22:10 +0100 t-70349966673520 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:22:10 +0100 t-70349966673520 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:22:10 +0100 t-70349966673520 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:22:10 +0100 t-70349966673520 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:22:10 +0100 t-70349966673520 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:26:14 +0100 t-70324742129260 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:26:14 +0100 t-70324742129260 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:26:14 +0100 t-70324742129260 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:26:14 +0100 t-70324742129260 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:26:14 +0100 t-70324742129260 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:26:14 +0100 t-70324742129260 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:27:36 +0100 t-70123688167020 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:27:36 +0100 t-70123688167020 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:27:36 +0100 t-70123688167020 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:27:36 +0100 t-70123688167020 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:27:36 +0100 t-70123688167020 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:27:36 +0100 t-70123688167020 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:25 +0100 t-70342731499120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:25 +0100 t-70342731499120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:25 +0100 t-70342731499120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:25 +0100 t-70342731499120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:25 +0100 t-70342731499120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:25 +0100 t-70342731499120 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:48 +0100 t-70183213729400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:48 +0100 t-70183213729400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:28:48 +0100 t-70183213729400 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:29:06 +0100 t-70133205042800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:29:06 +0100 t-70133205042800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:29:06 +0100 t-70133205042800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:29:06 +0100 t-70133205042800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:29:06 +0100 t-70133205042800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:29:06 +0100 t-70133205042800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:01 +0100 t-70305741932140 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:01 +0100 t-70305741932140 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:01 +0100 t-70305741932140 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:01 +0100 t-70305741932140 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:01 +0100 t-70305741932140 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:01 +0100 t-70305741932140 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:39 +0100 t-70237366388340 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:39 +0100 t-70237366388340 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:39 +0100 t-70237366388340 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:39 +0100 t-70237366388340 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:39 +0100 t-70237366388340 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:30:39 +0100 t-70237366388340 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:01 +0100 t-70218588489320 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:01 +0100 t-70218588489320 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:01 +0100 t-70218588489320 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:01 +0100 t-70218588489320 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:01 +0100 t-70218588489320 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:01 +0100 t-70218588489320 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:11 +0100 t-70302730421880 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:11 +0100 t-70302730421880 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:11 +0100 t-70302730421880 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:11 +0100 t-70302730421880 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:11 +0100 t-70302730421880 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:11 +0100 t-70302730421880 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:23 +0100 t-70308841522800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:23 +0100 t-70308841522800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:23 +0100 t-70308841522800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:23 +0100 t-70308841522800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:23 +0100 t-70308841522800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:23 +0100 t-70308841522800 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:43 +0100 t-70137567118960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:43 +0100 t-70137567118960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:43 +0100 t-70137567118960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:43 +0100 t-70137567118960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:43 +0100 t-70137567118960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:31:43 +0100 t-70137567118960 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:15 +0100 t-70132546537080 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:15 +0100 t-70132546537080 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:15 +0100 t-70132546537080 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:15 +0100 t-70132546537080 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:44 +0100 t-70311781729900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:44 +0100 t-70311781729900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:44 +0100 t-70311781729900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:44 +0100 t-70311781729900 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:56 +0100 t-70152075216500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:56 +0100 t-70152075216500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:56 +0100 t-70152075216500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:33:56 +0100 t-70152075216500 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:34:24 +0100 t-70194282497640 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:34:24 +0100 t-70194282497640 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:34:24 +0100 t-70194282497640 [      ] INFO  | configurator.rb:19       | Configuring Daemon
+2014-07-12 15:34:24 +0100 t-70194282497640 [      ] INFO  | configurator.rb:19       | Configuring Daemon

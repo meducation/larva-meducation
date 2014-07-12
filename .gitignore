@@ -1,0 +1,5 @@
+Gemfile.lock
+log/
+pkg/
+foo.log
+Foobar

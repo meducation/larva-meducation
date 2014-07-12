@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'larva_meducation'
+
+def error_exit(error)
+  $stderr.puts "!! Error: #{error}"
+  exit
+end
+
+error_exit("Please provide a valid command. Valid commands: spawn") unless ARGV[0] == "spawn"
+Larva::DaemonCreator.create(ENV["PWD"], ARGV[1])
+
